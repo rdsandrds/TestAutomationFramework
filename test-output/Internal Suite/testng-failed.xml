@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Internal Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="InternalTest(failed)">
+    <classes>
+      <class name="testcases.Admin_login">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="LoginTest"/>
+        </methods>
+      </class> <!-- testcases.Admin_login -->
+    </classes>
+  </test> <!-- InternalTest(failed) -->
+</suite> <!-- Failed suite [Internal Suite] -->
